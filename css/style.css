@@ -1,0 +1,147 @@
+.logo {
+    width: 100px;
+    height: 60px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    border: ridge 6px #f90303;
+}
+
+.reporte {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    border: ridge 6px #eb0909;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #f00;
+    /* Rojo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    /* Centrar horizontalmente */
+    position: relative;
+    /* Para posicionar el botón */
+    overflow: hidden;
+    /* Recortar la imagen si se sale del círculo */
+}
+
+.circle img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.btn-circle {
+    position: absolute;
+    bottom: 10px;
+    /* Ajustar la posición vertical del botón */
+    left: 50%;
+    transform: translateX(-50%);
+    /* Centrar horizontalmente el botón */
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.confia {
+    border: 3px solid red;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.confia h2 {
+    color: red;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('https://wallpapers.com/images/hd/cool-4k-ultra-hd-nao22k6od4a4djyl.jpg');
+    /* Reemplaza con la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    /* Texto blanco sobre la imagen */
+    text-align: center;
+    padding: 100px 0;
+    /* Espacio arriba y abajo */
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: yellow;
+    /* Botón amarillo */
+    color: black;
+    border: none;
+}
+body {
+    background-color: #f0f8ff; /* Color de fondo azul claro */
+    color: #000080; /* Texto en color azul marino */
+    font-family: Arial, sans-serif; /* Fuente empresarial */
+    line-height: 1.6; /* Espaciado de línea */
+}
+
+header {
+    background-color: #f90303; /* Fondo rojo */
+    color: white; /* Texto blanco */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #000080; /* Borde inferior azul marino */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    background-color: #000080; /* Fondo azul marino */
+    color: white; /* Texto blanco */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #dc3545; /* Fondo rojo similar a btn-danger */
+    color: white; /* Texto blanco */
+    padding: 10px 0;
+    text-align: center;
+    border-top: 4px solid #000080; /* Borde superior azul marino */
+}
+
+footer p {
+    margin: 0;
+}
+.hero2 {
+    background-color: #f8f9fa; /* Color de fondo claro para la sección hero */
+    padding: 4rem 0;
+    text-align: center;
+  }

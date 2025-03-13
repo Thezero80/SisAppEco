@@ -1,0 +1,40 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #0056b3; /* Azul universitario */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #d9534f; /* Rojo empresarial */
+}
+
+.form-label {
+    font-weight: bold;
+    color: #0056b3; /* Azul universitario */
+}
+
+.form-control {
+    border: 1px solid #0056b3; /* Azul universitario */
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #d9534f; /* Rojo empresarial */
+    border-color: #d9534f; /* Rojo empresarial */
+}
+
+.btn-primary:hover {
+    background-color: #c9302c; /* Rojo empresarial oscuro */
+    border-color: #c9302c; /* Rojo empresarial oscuro */
+}
